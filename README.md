@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Github API Tokens
+
+Before you can run this app, you will need both a Github Client ID and a Github Client Secret. This will help prevent malicous use of this app. To get these tokens, simple go to [New OAuth Application](https://github.com/settings/applications/new) and register your version of this app. For the `Homepage Url` and `Authorization callback URL`, you can use `localhost:3000`. Then you need to add these to enviroment variables. In the root directory, create a file called `.env.local`. DON'T ADD THIS FILE TO YOUR REPOSITORY. For the client id, create two fields called `REACT_APP_GITHUB_CLIENT_ID='{YOUR-ID}'` and `REACT_APP_GITHUB_CLIENT_SECRET='{YOUR-SECRET}'`. You are ready to run the app!
+
 ## Available Scripts
 
 In the project directory, you can run:
